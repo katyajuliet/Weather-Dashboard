@@ -1,3 +1,12 @@
+/* universal styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* nav header */
 .navbar-brand {
     font-size: 36px;
 }
@@ -14,8 +23,9 @@
 .forecast-date {
     font-size: 18px;
 }
-
+/* nav h1 color gradient */
 h1 {
     margin-bottom: 0%;
     background-image: linear-gradient(to right, teal , rgb(181, 80, 209));
+    color: white;
 }
