@@ -29,3 +29,15 @@ h1 {
     background-image: linear-gradient(to right, teal , rgb(181, 80, 209));
     color: white;
 }
+
+#search-button {
+    background-color: teal;
+}
+
+#clear-history {
+    background-color: teal;
+}
+
+.bg-primary {
+    background-color: teal;
+}
