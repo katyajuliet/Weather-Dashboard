@@ -15,6 +15,7 @@ function initPage() {
     const APIKey = "921e41fee3e611abb7fef6123648f8f6";
     //  When search button is clicked, read the city name typed by the user
 
+    
     function getWeather(cityName) {
         //  Using saved city name, execute a current condition get request from open weather map api
         let queryURL = "https://api.openweathermap.org/data/2.5/weather?q=" + cityName + "&appid=" + APIKey;
@@ -78,7 +79,8 @@ function initPage() {
                         }
                     })
             });
-    }
+        };
+
 
     searchEl.addEventListener("click", function () {
         const searchTerm = inputEl.value;

@@ -6,4 +6,5 @@
 Retrieve weather 5-day forecast for any city using call api from openweather.org with API Key. Have recent searches and a clear button for search history as well. 
 
 ##### Screenshots
-
+<img src="./assets/images/Screen1.png">
+<img src="./assets/images/Screen2.png">
